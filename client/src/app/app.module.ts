@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DemoDirDirective } from './directives/demo-dir.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DemoDirDirective
   ],
   imports: [
     BrowserModule,
